@@ -1,0 +1,25 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Marka</th>
+            <th>Renk</th>
+            <th>Araç Türü</th>
+            <th>Müşteri Adı</th>
+            <th>Şirket Adı</th>
+            <th>Günlük Fiyat</th>
+            <th>Kiralanma Tarihi</th>
+            <th>Dönüş Tarihi</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let rentalDetail of rentalDetails">
+        <td>{{rentalDetail.brandName}}</td>
+        <td>{{rentalDetail.colorName}}</td>
+        <td>{{rentalDetail.description}}</td>
+        <td>{{rentalDetail.customerName}}</td>
+        <td>{{rentalDetail.companyName}}</td>
+        <td>{{rentalDetail.dailyPrice}}</td>
+        <td>{{rentalDetail.rentDate}}</td>
+        <td>{{rentalDetail.returnDate}}</td>
+
+    </tr>
+</table>

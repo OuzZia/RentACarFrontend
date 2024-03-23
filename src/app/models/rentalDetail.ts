@@ -1,0 +1,15 @@
+export interface RentalDetail{
+    id:number,
+    rentDate:Date,
+    returnDate:Date,
+    companyName:string,
+    customerName:string,
+    dailyPrice:number,
+    description:string,
+    colorName:string,
+    brandName:string,
+    colorId:number,
+    brandId:number,
+    modelYear:number,
+    carId:number,
+}
